@@ -8,80 +8,512 @@ Using pre-set license
 -name
 AssetImportWorker0
 -projectPath
-/Users/damian/Programowanie/Unity/Run or die
+/Users/damian/Programowanie/Unity/run-or-die
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53000
-Successfully changed project path to: /Users/damian/Programowanie/Unity/Run or die
-/Users/damian/Programowanie/Unity/Run or die
+56144
+Successfully changed project path to: /Users/damian/Programowanie/Unity/run-or-die
+/Users/damian/Programowanie/Unity/run-or-die
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 23.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/damian/Programowanie/Unity/Run or die/Assets
+[Subsystems] Discovering subsystems at path /Users/damian/Programowanie/Unity/run-or-die/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-10 20:49:59.941 Unity[3910:217373] iMac preferred device: AMD Radeon R9 M395 (high power)
-2021-06-10 20:49:59.941 Unity[3910:217373] Metal devices available: 1
-2021-06-10 20:49:59.941 Unity[3910:217373] 0: AMD Radeon R9 M395 (high power)
-2021-06-10 20:49:59.941 Unity[3910:217373] Using device AMD Radeon R9 M395 (high power)
+2021-06-12 22:31:08.649 Unity[20711:1477461] iMac preferred device: AMD Radeon R9 M395 (high power)
+2021-06-12 22:31:08.649 Unity[20711:1477461] Metal devices available: 1
+2021-06-12 22:31:08.649 Unity[20711:1477461] 0: AMD Radeon R9 M395 (high power)
+2021-06-12 22:31:08.649 Unity[20711:1477461] Using device AMD Radeon R9 M395 (high power)
 Initializing Metal device caps: AMD Radeon R9 M395
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56910
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56711
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001480 seconds.
+Registered in 0.001719 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 22.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 22.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.544 seconds
+- Completed reload, in  2.199 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001046 seconds.
+Registered in 0.000835 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
+- Completed reload, in  0.955 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.2.7f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 113.8 MB.
-System memory in use after: 113.8 MB.
+System memory in use before: 114.0 MB.
+System memory in use after: 114.0 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1564.
-Total: 2.640016 ms (FindLiveObjects: 0.256308 ms CreateObjectMapping: 0.061114 ms MarkObjects: 2.212729 ms  DeleteObjects: 0.108547 ms)
+Total: 3.019209 ms (FindLiveObjects: 0.209196 ms CreateObjectMapping: 0.056710 ms MarkObjects: 2.495784 ms  DeleteObjects: 0.255657 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Moje assety/Animations/ZombieInMenu.controller
-  artifactKey: Guid(7d2ec0f30818540f2a971cf6aa1bab6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Moje assety/Animations/ZombieInMenu.controller using Guid(7d2ec0f30818540f2a971cf6aa1bab6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889b9ea2e6969598bc726c4ed05c8c52') in 1.083841 seconds
-  Import took 1.087801 seconds .
+  path: Assets/Moje assety/Scenes/Level1.unity
+  artifactKey: Guid(4f3d15ef9f6324bf2af6f21761121baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Scenes/Level1.unity using Guid(4f3d15ef9f6324bf2af6f21761121baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b541306c305597b14908adc2123e3e') in 0.010750 seconds
+  Import took 0.014813 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.9 MB.
+System memory in use after: 92.0 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 38.594080 ms (FindLiveObjects: 0.886211 ms CreateObjectMapping: 0.098495 ms MarkObjects: 37.481488 ms  DeleteObjects: 0.126683 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.2 MB.
+System memory in use after: 114.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 1.584442 ms (FindLiveObjects: 0.170395 ms CreateObjectMapping: 0.037065 ms MarkObjects: 1.313546 ms  DeleteObjects: 0.062437 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Moje assety/Animations/ZombieInAboutMenu.controller
-  artifactKey: Guid(57e6c71240e6640e6b34ec571a56b9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Moje assety/Animations/ZombieInAboutMenu.controller using Guid(57e6c71240e6640e6b34ec571a56b9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc84f51bbad4f39d603daee1e9105cc') in 0.008691 seconds
-  Import took 0.026580 seconds .
+  Time since last request: 1715.383817 seconds.
+  path: Assets/Gotowe assety/Pavement textures pack/pavement 01/pavement pattern 01.mat
+  artifactKey: Guid(6641b0d643f3f3641a48f1a476baf386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gotowe assety/Pavement textures pack/pavement 01/pavement pattern 01.mat using Guid(6641b0d643f3f3641a48f1a476baf386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a9bf47d17c4fd191f7b4985e2b9173') in 1.736983 seconds
+  Import took 1.742639 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002408 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 122.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 1.703636 ms (FindLiveObjects: 0.194343 ms CreateObjectMapping: 0.042613 ms MarkObjects: 1.401940 ms  DeleteObjects: 0.063722 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.116670 seconds.
+  path: Assets/Moje assety/Prefabs/Pendulum.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/Pendulum.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc37c7653acc93a9e270b41c4ada243') in 0.806819 seconds
+  Import took 0.809254 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000952 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.0 MB.
+System memory in use after: 127.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1615.
+Total: 1.829782 ms (FindLiveObjects: 0.235665 ms CreateObjectMapping: 0.064773 ms MarkObjects: 1.460790 ms  DeleteObjects: 0.066817 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.2 MB.
+System memory in use after: 127.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1618.
+Total: 1.542161 ms (FindLiveObjects: 0.146085 ms CreateObjectMapping: 0.036859 ms MarkObjects: 1.301342 ms  DeleteObjects: 0.055815 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.747354 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92f333418a25101b351b1130fedf7e2') in 0.074210 seconds
+  Import took 0.076224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.458756 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690a2db5176d3b48c12131145d3ea571') in 0.020377 seconds
+  Import took 0.022839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.456128 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b70eaedbcad645cab9062a898d5f8cb') in 0.052561 seconds
+  Import took 0.059235 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.936 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1622.
+Total: 1.533478 ms (FindLiveObjects: 0.142746 ms CreateObjectMapping: 0.036981 ms MarkObjects: 1.282109 ms  DeleteObjects: 0.070768 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.134879 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4450880bf3a5d11117bd06332d4efad1') in 0.072708 seconds
+  Import took 0.075623 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.8 MB.
+System memory in use after: 127.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 1.580898 ms (FindLiveObjects: 0.144435 ms CreateObjectMapping: 0.036662 ms MarkObjects: 1.312381 ms  DeleteObjects: 0.086364 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.154616 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97428b3c014a453d49721e3ea43d3f80') in 0.066327 seconds
+  Import took 0.068859 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001689 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.1 MB.
+System memory in use after: 128.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
+Total: 1.609448 ms (FindLiveObjects: 0.160581 ms CreateObjectMapping: 0.038976 ms MarkObjects: 1.346995 ms  DeleteObjects: 0.061147 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.587630 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd9cf3d27efe7bcdea9e97efb16e049') in 0.079124 seconds
+  Import took 0.082041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.552321 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2897ce5fcbd55ad4976d3c17b4c80521') in 0.015169 seconds
+  Import took 0.017621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.939210 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401136f80f06e93204a0442ad6083a02') in 0.022084 seconds
+  Import took 0.024678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.442223 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b43cf9630fb4dd4ae1eaeeed29c600') in 0.016063 seconds
+  Import took 0.018398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.228119 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d7b7c488c80f97e35a96cd0910810e') in 0.013931 seconds
+  Import took 0.016276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.444888 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba0b4995779293de0dd6ea90a8bef5f') in 0.013899 seconds
+  Import took 0.016340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.096981 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61aa35968410eeff9a0044a808db099') in 0.017331 seconds
+  Import took 0.020808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.415093 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dc40ead0d1aab9ee83c133b7a91f84') in 0.014484 seconds
+  Import took 0.017141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.539123 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edfc0084f827fd2ca1f14a6e07a168e') in 0.014746 seconds
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.314205 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e08f8b1c591da4bb78aa569537b3a4') in 0.020058 seconds
+  Import took 0.023615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.646308 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cd4a2c35d55729bb0ce29f580749b1') in 0.016530 seconds
+  Import took 0.019249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.004176 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5511ed29c4ffafcf698e77f362140f8d') in 0.013096 seconds
+  Import took 0.015593 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000388 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.5 MB.
+System memory in use after: 128.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1634.
+Total: 1.636631 ms (FindLiveObjects: 0.179353 ms CreateObjectMapping: 0.048243 ms MarkObjects: 1.348255 ms  DeleteObjects: 0.059875 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.383600 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9eb2454353c1aea88e011d76cc62c7') in 0.091318 seconds
+  Import took 0.093928 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.8 MB.
+System memory in use after: 128.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1638.
+Total: 1.818897 ms (FindLiveObjects: 0.256307 ms CreateObjectMapping: 0.061105 ms MarkObjects: 1.434542 ms  DeleteObjects: 0.066020 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.944865 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f52617fcb1bd8752cff2ecaa4007cc') in 0.065804 seconds
+  Import took 0.067906 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000444 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.1 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1642.
+Total: 1.616143 ms (FindLiveObjects: 0.168807 ms CreateObjectMapping: 0.035731 ms MarkObjects: 1.353564 ms  DeleteObjects: 0.056839 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.632288 seconds.
+  path: Assets/Moje assety/Prefabs/PendulumPf.prefab
+  artifactKey: Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moje assety/Prefabs/PendulumPf.prefab using Guid(2faa9a8ee78db4b778ce6b8131e481ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8d7fd5e3ba48d59bd92deb86ae196d') in 0.071708 seconds
+  Import took 0.073682 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000330 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1111 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.3 MB.
+System memory in use after: 129.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1646.
+Total: 1.536662 ms (FindLiveObjects: 0.138333 ms CreateObjectMapping: 0.037202 ms MarkObjects: 1.306935 ms  DeleteObjects: 0.053361 ms)
 
